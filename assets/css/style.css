@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-shadow: -1px 0 2px #2f4d5a;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 #header .logo img {
