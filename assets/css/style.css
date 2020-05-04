@@ -786,6 +786,7 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #2f4d5a;
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
   font-size: 22px;
   text-align: center;
   background: #B3D6E5;
