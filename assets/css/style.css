@@ -785,9 +785,9 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
-  background: rgba(103, 176, 209, 0.75);
+  background: #ecf5f9;
   transition: 0.3s;
   width: 100%;
 }
