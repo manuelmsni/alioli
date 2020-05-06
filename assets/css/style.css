@@ -1138,6 +1138,18 @@ section {
     100% {background-position: 0% 50%;}
 }
 
+.pride {
+    animation: ColorGradient 5s ease infinite;
+}
+
+  @keyframes ColorGradient {
+    0% {color: #FFD800}
+    25% {color: #FF3C35;}
+    50% {color: #A33EFF;}
+    75% {color: #42B0FF;}
+    100% {color: #60FFAA;}
+  }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
