@@ -1122,7 +1122,6 @@ section {
 }
 
 .contact .info-box-golden {
-  z-index: -10;
   color: #444444;
   text-align: center;
   -webkit-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
@@ -1144,9 +1143,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
     0% {background-position: 0% 50%;-webkit-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
 -moz-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
 box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
-    50% {background-position: 100% 50%;-webkit-box-shadow: 0px 0px 76px 24px rgba(240,224,141,0.58);
--moz-box-shadow: 0px 0px 76px 24px rgba(240,224,141,0.58);
-box-shadow: 0px 0px 76px 24px rgba(240,224,141,0.58);}
+    50% {background-position: 100% 50%;-webkit-box-shadow: 0px 0px 44px 17px rgba(255,252,186,1);
+-moz-box-shadow: 0px 0px 44px 17px rgba(255,252,186,1);
+box-shadow: 0px 0px 44px 17px rgba(255,252,186,1);}
     100% {background-position: 0% 50%;-webkit-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
 -moz-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
 box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
