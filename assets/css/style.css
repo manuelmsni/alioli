@@ -63,13 +63,13 @@ text-decoration: none;
 }
 @keyframes rotating-function {
   0% {
-    background-image: url(0deg,"https://manuelmsni.github.io/alioli/assets/img/Cookie.png");
+    background: linear-gradient(0deg);
   }
   50% {
-    background-image: url(360deg,"https://manuelmsni.github.io/alioli/assets/img/Cookie.png");
+    background: linear-gradient(360deg);
   }
   100% {
-    background-image: url(0deg,"https://manuelmsni.github.io/alioli/assets/img/Cookie.png");
+    background: linear-gradient(0deg);
   }
 }
 
