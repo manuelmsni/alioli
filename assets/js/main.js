@@ -1,6 +1,6 @@
 
   // texto Aviso de cookies
-cookieOptions = {msg: "Además de hacerlas, nuestra web usa Cookies", close: "Lo entiendo", learn: "Información", link:"https://www.blogger.com/go/blogspot-cookies"};
+cookieOptions = {msg: "Además de hacerlas, nuestra web usa Cookies", close: "Lo entiendo. Cerrar", learn: "Más Información", link:"https://www.blogger.com/go/blogspot-cookies"};
 
   // Ventana modal en construcción
 $( document ).ready(function() {
