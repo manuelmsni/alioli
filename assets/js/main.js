@@ -3,6 +3,9 @@
 $( document ).ready(function() {
     $('#myModal').modal('toggle')
 });
+$( document ).ready(function() {
+    $('#cookie1').modal('toggle')
+});
 
 !(function($) {
   "use strict";
