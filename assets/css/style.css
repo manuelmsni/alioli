@@ -22,7 +22,7 @@ box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
 animation: RollingCookie 6s ease infinite;
 }
 
-#cookieChoiceInfo:after {
+#cookieChoiceInfo::after {
 transform: rotate(360deg);
 }
 /* Caja del texto*/
