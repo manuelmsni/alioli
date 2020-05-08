@@ -1,9 +1,9 @@
-/**
-* Template Name: Squadfree - v2.0.1
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+
+$( document ).ready(function() {
+    $('#myModal').modal('toggle')
+});
+
 !(function($) {
   "use strict";
 
