@@ -18,7 +18,7 @@ border-radius: 25px;
 -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
 -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
 box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
-animation: RollingCookie 6s ease infinite, rotating-function 3s ease infinite;
+animation: RollingCookie 6s ease infinite;
 }
 /* Caja del texto*/
 .cookie-choices-text {
@@ -61,11 +61,7 @@ text-decoration: none;
 50% {background-position: 100% 0%;}
 100% {background-position:0% 0%;}
 }
-@keyframes rotating-function {
-0% {background: transform(0deg);}
-50% {background: transform(360deg);}
-100% {background: transform(0deg);}
-}
+
 
 
 /*--------------------------------------------------------------
