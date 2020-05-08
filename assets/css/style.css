@@ -61,6 +61,11 @@ text-decoration: none;
 50% {background-position: 100% 0%;}
 100% {background-position:0% 0%;}
 }
+@keyframes rotating-function {
+0% {background-position: linear-gradient(0deg, #fff102,  #f10271, #00c298);}
+50% {background-position: linear-gradient(360deg, #fff102,  #f10271, #00c298);}
+100% {background-position: linear-gradient(0deg, #fff102,  #f10271, #00c298);}
+}
 
 
 /*--------------------------------------------------------------
