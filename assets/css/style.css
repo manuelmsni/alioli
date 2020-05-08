@@ -18,11 +18,16 @@ border-radius: 25px;
 -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
 -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
 box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.47);
-animation: RollingCookie 6s ease infinite;
+animation: RollingCookie 6s ease infinite, rotating-function 3s ease infinite;
 }
 
-#cookieChoiceInfo:before{
-transform: rotate(360deg);
+@keyframes rotating-function {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 /* Caja del texto*/
 .cookie-choices-text {
