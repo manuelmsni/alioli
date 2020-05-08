@@ -57,20 +57,9 @@ text-decoration: none;
 }
 
 @keyframes RollingCookie {
-0% {background-image-position: 0% 0%;}
-50% {background-position: 100% 0%;}
-100% {background-image-position: 0% 0%;}
-}
-@keyframes rotating-function {
-  0% {
-    background: transform: rotate(0deg);
-  }
-  50% {
-    background: transform: rotate(360deg);
-  }
-  100% {
-    background: transform: rotate(0deg);
-  }
+0% {background-image-position: 0deg 0% 0%;}
+50% {background-position: 360deg 100% 0%;}
+100% {background-image-position: 0deg 0% 0%;}
 }
 
 /*--------------------------------------------------------------
