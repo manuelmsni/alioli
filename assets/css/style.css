@@ -63,13 +63,13 @@ text-decoration: none;
 }
 @keyframes rotating-function {
   0% {
-    background: transform (0deg);
+    background: rotate(0deg);
   }
   50% {
-    background: transform (0deg);
+    background: rotate(360deg);
   }
   100% {
-    background: transform (0deg);
+    background: rotate(0deg);
   }
 }
 
