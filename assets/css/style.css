@@ -69,7 +69,7 @@ text-decoration: none;
     background: 360deg;
   }
   100% {
-    background: 0deg;
+    background: 10deg;
   }
 }
 
