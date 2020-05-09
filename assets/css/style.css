@@ -134,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
+  visivility: none;
   font-size: 24px;
   margin: 0;
   padding: 6px 0;
@@ -144,6 +145,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: display 0.5s ease-in-out;
 }
 
+#header.header-scrolled .logo h1 {
+  visivility: visible;
+}
+  
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
   text-shadow: -1px 0 2px #2f4d5a;
