@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  visivility: none;
+  visivility: hidden;
   font-size: 24px;
   margin: 0;
   padding: 6px 0;
