@@ -232,6 +232,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/2wer.png") top center;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
+  border: 1px solid #2f4d5a;
 }
 
 .nav-menu .drop-down:hover > ul {
