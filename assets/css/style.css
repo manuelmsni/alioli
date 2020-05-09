@@ -239,6 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   top: 100%;
   visibility: visible;
+  border: 1px solid #25607a;
 }
 
 .nav-menu .drop-down li {
