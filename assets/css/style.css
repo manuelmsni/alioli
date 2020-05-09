@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 {
-  visivility: hidden;
+  visibility: hidden;
   font-size: 24px;
   margin: 0;
   padding: 6px 0;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled .logo h1 {
-  visivility: visible;
+  visibility: visible;
 }
   
 #header .logo h1 a, #header .logo h1 a:hover {
