@@ -37,7 +37,7 @@ $( document ).ready(function() {
       $('#opcion1').removeClass('dont-show-1');
       $('#opcion2').removeClass('dont-show-2');
       $('#opcion2').addClass('dont-show-2');
-  });
+  });   });
   
   
 
