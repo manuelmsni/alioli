@@ -11,6 +11,14 @@ $( document ).ready(function() {
 !(function($) {
   "use strict";
   
+    // aplicar primera opción al cargar
+$( document ).ready(function() {
+   $("#option-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+      optionIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+});
     // filtro option entradas
   $(window).on('load', function() {
     var optionIsotope = $('.option-container').isotope({
