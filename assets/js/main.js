@@ -32,7 +32,6 @@ $( document ).ready(function() {
       itemSelector: '.option-item',
       layoutMode: 'fitRows'
     });  
-    $('#option-flters li').ready(function() {
       $("#option-flters li").removeClass('filter-active');
       $('.sin-filtro').addClass('filter-active');
       optionIsotope.isotope({
@@ -40,7 +39,7 @@ $( document ).ready(function() {
       });
       aos_init();
     });
-  });
+
 
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
