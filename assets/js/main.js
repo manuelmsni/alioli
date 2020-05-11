@@ -16,7 +16,7 @@ $( document ).ready(function() {
     
     $('#option-flters li').on('load', function() {
       $("#option-flters li").removeClass('filter-active');
-      $('#sin-filtro').addClass('filter-active');
+      $('#option-flters li #sin-filtro').addClass('filter-active');
       optionIsotope.isotope({
         filter: $(this).data('filter')
       });
