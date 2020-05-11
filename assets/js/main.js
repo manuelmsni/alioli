@@ -36,8 +36,14 @@ $( document ).ready(function() {
     $('.botonO1').on('click', function() {
       $('#opcion1').removeClass('dont-show-1');
       $('#opcion2').removeClass('dont-show-2');
-      $('#opcion2').addClass('dont-show-2');
-  });   });
+      $('#opcion2').addClass('dont-show-2');      
+         });  
+    $('.botonO2').on('click', function() {
+      $('#opcion2').removeClass('dont-show-2');
+      $('#opcion1').removeClass('dont-show-1');
+      $('#opcion1').addClass('dont-show-1');
+         });   
+   });
   
   
 
