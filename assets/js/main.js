@@ -28,16 +28,8 @@ $( document ).ready(function() {
   });
   
   $(document).ready(function() {
-      var optionIsotope = $('.option-container').isotope({
-      itemSelector: '.option-item',
-      layoutMode: 'fitRows'
-    });
-      $(".sinam").addClass('filter-active');
-      optionIsotope.isotope({
-        filter: $('.option-container').data('filter')
-      });
-      aos_init();
-   
+      $('#opcion1').addClass('dont-show-1');
+      $('#opcion2').addClass('dont-show-2');
   });
 
 
