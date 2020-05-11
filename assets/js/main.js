@@ -18,7 +18,7 @@ $( document ).ready(function() {
       layoutMode: 'fitRows'
     });
     
-    $('#option-flters li').ready(function() {
+    $( document ).ready(function() {
       $("#option-flters li").removeClass('filter-active');
       $('#option-flters li #sin-filtro').addClass('filter-active');
       optionIsotope.isotope({
