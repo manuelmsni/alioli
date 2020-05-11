@@ -14,9 +14,9 @@ $( document ).ready(function() {
     // aplicar primera opción al cargar
 $( document ).ready(function() {
    $("#option-flters li").removeClass('filter-active');
-      $(#sin-filter).addClass('filter-active');
+      $(#sin-filtro).addClass('filter-active');
       optionIsotope.isotope({
-        filter: $(#sin-filter).data('filter')
+        filter: $(#sin-filtro).data('filter')
       });
 });
     // filtro option entradas
