@@ -32,6 +32,14 @@ $( document ).ready(function() {
       $('#opcion2').addClass('dont-show-2');
   });
 
+  $(window).on('load', function() {
+    $('.botonO1').on('click', function() {
+      $('#opcion1').removeClass('dont-show-1');
+      $('#opcion2').removeClass('dont-show-2');
+      $('#opcion2').addClass('dont-show-2');
+  });
+  
+  
 
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
