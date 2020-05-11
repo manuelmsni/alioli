@@ -24,6 +24,12 @@ $( document ).ready(function() {
       optionIsotope.isotope({
         filter: $(this).data('filter')
       });
+      
+            $(this).addClass('filter-active');
+      optionIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+      
       aos_init();
     });
   });
