@@ -27,11 +27,6 @@ $( document ).ready(function() {
     });
   });
 
-  // Initiate venobox (lightbox feature used in options)
-  $(document).ready(function() {
-    $('.venobox').venobox();
-  });
-    
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
