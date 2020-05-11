@@ -35,7 +35,7 @@ $( document ).ready(function() {
       $("#option-flters li").removeClass('filter-active');
       $(".sinam").addClass('filter-active');
       optionIsotope.isotope({
-        filter: $(this).data('filter')
+        filter: $('.option-item').data('filter')
       });
       aos_init();
    
