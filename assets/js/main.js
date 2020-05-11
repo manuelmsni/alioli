@@ -13,10 +13,6 @@ $( document ).ready(function() {
   
     // filtro option entradas
   $(window).on('load', function() {
-    var optionIsotope = $('.option-container').isotope({
-      itemSelector: '.option-item',
-      layoutMode: 'fitRows'
-    });
     
     $('#option-flters li').on('load', function() {
       $("#option-flters li").removeClass('filter-active');
