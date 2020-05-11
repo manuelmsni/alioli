@@ -27,7 +27,7 @@ $( document ).ready(function() {
     });
   });
   
-  $(document).ready('load', function() {
+  $(document).ready(function() {
       var optionIsotope = $('.option-container').isotope({
       itemSelector: '.option-item',
       layoutMode: 'fitRows'
