@@ -20,9 +20,9 @@ $( document ).ready(function() {
     
      $('#option-flters li').on('load', function() {
       $("#option-flters li").removeClass('filter-active');
-      $("#con-filtro").addClass('filter-active');
+      $('#sin-filtro').addClass('filter-active');
       optionIsotope.isotope({
-        filter: $("#con-filtro").data('filter')
+        filter: $('#sin-filtro').data('filter')
       });
       aos_init();
     });
