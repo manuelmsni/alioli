@@ -27,12 +27,12 @@ $( document ).ready(function() {
     });
   });
   
-  $(window).ready( function() {
+  $( document ).ready( function() {
       var optionIsotope = $('.option-container').isotope({
       itemSelector: '.option-item',
       layoutMode: 'fitRows'
     });  
-    $( document ).ready(function() {
+    $('#option-flters li').ready(function() {
       $("#option-flters li").removeClass('filter-active');
       $('.sin-filtro').addClass('filter-active');
       optionIsotope.isotope({
