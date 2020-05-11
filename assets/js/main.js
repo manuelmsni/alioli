@@ -5,7 +5,6 @@ cookieOptions = {msg: "Además de hacerlas, nuestra web usa Cookies", close: "Lo
   // Ventana modal en construcción
 $( document ).ready(function() {
     $('#myModal').modal('toggle');
-     $("#option-flters li").removeClass('filter-active');
 });
 
 
@@ -18,18 +17,22 @@ $( document ).ready(function() {
       itemSelector: '.option-item',
       layoutMode: 'fitRows'
     });
+    
+     $('#option-flters li').on('load', function() {
+      $("#option-flters li").removeClass('filter-active');
+      $("#con-filtro").addClass('filter-active');
+      optionIsotope.isotope({
+        filter: $("#con-filtro").data('filter')
+      });
+      aos_init();
+    });
+    
     $('#option-flters li').on('click', function() {
       $("#option-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
       optionIsotope.isotope({
         filter: $(this).data('filter')
       });
-      
-            $(this).addClass('filter-active');
-      optionIsotope.isotope({
-        filter: $(this).data('filter')
-      });
-      
       aos_init();
     });
   });
