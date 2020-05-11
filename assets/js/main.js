@@ -14,7 +14,7 @@ $( document ).ready(function() {
     // filtro option entradas
   $(window).on('load', function() {
       var optionIsotope = $('.option-container').isotope({
-      itemSelector: '.portfolio-item',
+      itemSelector: '.option-item',
       layoutMode: 'fitRows'
     });
     
