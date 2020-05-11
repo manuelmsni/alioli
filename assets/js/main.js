@@ -4,7 +4,7 @@ cookieOptions = {msg: "Además de hacerlas, nuestra web usa Cookies", close: "Lo
 
   // Ventana modal en construcción
 $( document ).ready(function() {
-    $('#myModal').modal('toggle')
+    $('#myModal').modal('toggle');
      $("#option-flters li").removeClass('filter-active');
       $(#sin-filtro).addClass('filter-active');
 });
