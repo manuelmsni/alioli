@@ -17,21 +17,26 @@ $( document ).ready(function() {
       itemSelector: '.option-item',
       layoutMode: 'fitRows'
     });
-    
-    $( document ).ready(function() {
-      $("#option-flters li").removeClass('filter-active');
-      $('.sin-filtro').addClass('filter-active');
-      optionIsotope.isotope({
-        filter: $('#option-flters li #sin-filtro').data('filter')
-      });
-      aos_init();
-    });
-    
     $('#option-flters li').on('click', function() {
       $("#option-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
       optionIsotope.isotope({
         filter: $(this).data('filter')
+      });
+      aos_init();
+    });
+  });
+  
+  $(window).ready( function() {
+      var optionIsotope = $('.option-container').isotope({
+      itemSelector: '.option-item',
+      layoutMode: 'fitRows'
+    });  
+    $( document ).ready(function() {
+      $("#option-flters li").removeClass('filter-active');
+      $('.sin-filtro').addClass('filter-active');
+      optionIsotope.isotope({
+        filter: $('#option-flters li #sin-filtro').data('filter')
       });
       aos_init();
     });
