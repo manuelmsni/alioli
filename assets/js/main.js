@@ -32,7 +32,6 @@ $( document ).ready(function() {
       itemSelector: '.option-item',
       layoutMode: 'fitRows'
     });
-      $("#option-flters li").removeClass('filter-active');
       $(".sinam").addClass('filter-active');
       optionIsotope.isotope({
         filter: $('.option-container').data('filter')
