@@ -11,21 +11,7 @@ $( document ).ready(function() {
 !(function($) {
   "use strict";
   
-    // filtro option entradas
-  $(window).on('load', function() {
-      var optionIsotope = $('.option-container').isotope({
-      itemSelector: '.option-item',
-      layoutMode: 'fitRows'
-    });
-    $('#option-flters li').on('click', function() {
-      $("#option-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
-      optionIsotope.isotope({
-        filter: $(this).data('filter')
-      });
-      aos_init();
-    });
-  });
+    // mostrar / ocultar opción entradadas
   
   $(document).ready(function() {
       $('#opcion1').addClass('dont-show-1');
