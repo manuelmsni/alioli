@@ -849,26 +849,6 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #2f4d5a;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-  text-align: center;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-  width: 100%;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #ecf5f9;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #8ec4dd;
-}
-
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
